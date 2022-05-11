@@ -36,7 +36,7 @@ a:hover {
 
 table, tr, td {
     border: 1px solid gray;
-    width: 100%;
+    width: 45%;
 }
 
 #minha_foto {
@@ -59,7 +59,12 @@ footer a {
     border-radius: 4px;
 }
 
-section div #licoes_aprendidas {
+#aprendizado {
+    text-align: center;
+}
+
+
+/* section div #licoes_aprendidas {
     position: relative;
     margin-left: 60px;
     margin-right: auto;
@@ -71,16 +76,5 @@ section div #licoes_a_aprender {
     margin-right: auto;
     margin-left: 50%;
     
-}
-
-article h2 {
-    text-align: center;
-}
-
-article {
-    width: 1000px;
-    height: 100px;
-    display: inline-block;
-    margin-bottom: 200px;
-}
+} */
 
