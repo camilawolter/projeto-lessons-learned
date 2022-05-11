@@ -15,6 +15,7 @@ header {
     top: 0;
     position: fixed;
     background-color: rgb(150, 189, 150);
+    z-index: 1;
 }
 
 #cabecalho {
@@ -43,6 +44,7 @@ table, tr, td {
     padding: 10px;
     height: 200px;
     margin-top: 110px;
+    margin-left: 10px;
 }
 
 #rodape {
@@ -56,3 +58,29 @@ footer a {
     padding: 5px 10px;
     border-radius: 4px;
 }
+
+section div #licoes_aprendidas {
+    position: relative;
+    margin-left: 60px;
+    margin-right: auto;
+    z-index: 2;
+}
+
+section div #licoes_a_aprender {
+    position: relative;
+    margin-right: auto;
+    margin-left: 50%;
+    
+}
+
+article h2 {
+    text-align: center;
+}
+
+article {
+    width: 1000px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 200px;
+}
+
