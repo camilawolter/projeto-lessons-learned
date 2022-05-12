@@ -7,7 +7,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: rgb(63, 58, 58); 
+    color: rgb(63, 58, 58);
     line-height: 1cm;
 }
 
@@ -15,8 +15,6 @@ body {
     position: fixed;
     z-index: 1;
 } */
-
-
 
 #cabecalho {
     top: 0;
@@ -43,14 +41,17 @@ a:hover {
 
 table, tr, td {
     border: 1px solid gray;
+    text-align: center;
 }
 
 #minha_foto {
     border-radius: 100%;
     padding: 10px;
     height: 200px;
-    /* margin-top: 110px; */
     margin-left: 10px;
+    margin-top: 30px;
+    float: left;
+    background-color: rgb(150, 189, 150);
 }
 
 #rodape {
@@ -70,9 +71,49 @@ footer a {
 }
 
 table {
-    width: 50%;
+    width: 50%;  
 }
 
 #div1, #div2 {
     margin-left: 50px;
+}
+
+#div1 {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
+}
+
+#div2 {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
+}
+
+.lado-esquerdo{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
+}
+
+.lado-direito {
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    margin-top: 50px;
 }
